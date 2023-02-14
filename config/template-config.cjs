@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     // 自定义，随便怎么填，与config里的templateId对应
-    id: '0001',
+    id: 'yhy',
     // 模板标题，会展示到推送消息的标题位置
     title: '亲爱的, 早上好',
     // 模板内容，支持部分markdown语法
@@ -39,7 +39,7 @@ const TEMPLATE_CONFIG = [
     `
   },
   {
-    id: '0002',
+    id: 'wxy',
     title: '推送完成提醒',
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
